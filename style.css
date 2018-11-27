@@ -1,0 +1,53 @@
+body {
+  background-color: green;
+color: red;  }
+h1 {
+color: blue;
+}
+p {
+  color: red
+}
+ul {
+  color: orange
+}
+ul ul {
+  color: darkred
+}
+ol {
+   color: lime
+}
+table {
+ color: darkblue
+}
+th {
+ color: red
+}
+table, th, td {
+   border: 1px solid gray;
+}
+table {
+    border-collapse: collapse;
+}
+table {
+    width: 10%;
+}
+
+th {
+    height: 10px;
+}
+a {
+  color: black
+}
+h2  {
+  color: blue
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+  font-weight: bold;
+}
