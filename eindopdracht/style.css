@@ -1,0 +1,96 @@
+body {
+  background-color: #7286A0;
+}
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  left: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #F5F6F4;
+  position: fixed;
+  height: 100%;
+  top:0;
+}
+
+li a.menu {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size:20px;
+}
+
+li a.active {
+  background-color: #335065;
+  color: #F5F6F4;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: #F5F6F4;
+}
+.tekst {
+  padding-top: 125px;
+  padding-left: 240px;
+  width: 65%;
+}
+.titel {
+  left: 15%;
+  top: 0;
+  background-color: #138A67;
+  padding: 1px;
+  width: 100%;
+  font-size: 25px;
+  position: fixed;
+}
+.titel2 {
+  margin-left: 25%;
+}
+.film {
+  margin-left: 16%;
+  border: 0px;
+}
+.billgates {
+  margin-top: 150px;
+  margin-left: 85%;
+  position: fixed;
+}
+.bornplace {
+  margin-left: 17%;
+  width: 600px;
+  height: 450px;
+  border: 0px;
+}
+.contact {
+  margin-left: 16%;
+}
+.microsoft {
+  width: 15%;
+  margin-left: 82%;
+  margin-top: 15%;
+  position: absolute;
+}
+.top5rijkste {
+  margin-left: 20%;
+  width: 60%;
+  padding: 15px;
+  border-collapse: collapse;
+}
+.hetmml {
+  float: right;
+}
+th.top5rijkste {
+  background-color: #162E54;
+}
+tr:nth-child(even) {
+  background-color: #BEB7A4;
+}
+tr:nth-child(odd) {
+  background-color: #DEE7E7;
+}
+.school {
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
